@@ -293,7 +293,44 @@ function AppContent() {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pt-24">
+      <div className='background'>
+        {/* <img className='background' src="https://theclubhousegb.com/wp-content/uploads/2022/07/food-img.jpg" alt="" /> */}
+      </div>
+
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pt-24 main-page-header">
+        <div className='info-page'>
+          <div className='page-logo'>
+            <img src="https://freesvg.org/img/Logo-Logo-White-with-Black-Background.png" alt="" />
+          </div>
+
+          <div className='contact-details'>
+
+            <div className='facebook a-style'>
+              <a href="">
+                <img className='specific-style' src="https://hookah.bonbell.online/social/facebook.png" alt="" />
+              </a>
+            </div>
+
+            <div className='instagram a-style'>
+              <a href="">
+                <img src="https://hookah.bonbell.online/social/instagram.png" alt="" />
+              </a>
+            </div>
+
+            <div className='whatsapp a-style'>
+              <a href="">
+                <img src="https://hookah.bonbell.online/social/whatsapp.png" alt="" />
+              </a>
+            </div>
+
+            <div className='location a-style'>
+                <a href="">
+              <img src="https://hookah.bonbell.online/icons/location-pin.png" alt="" />
+              </a>
+            </div>
+
+          </div>
+        </div>
         <CategoryFilter
           categories={menuTypes}
           selectedCategory={selectedCategory}
